@@ -65,7 +65,7 @@ flowchart TD
 ```bash
 git clone https://github.com/<your-username>/iot-camera-defense-sweep.git
 cd iot-camera-defense-sweep
-pip install -r requirements.txt
+pip install -r requests
 python main.py
 ```
 
@@ -120,7 +120,6 @@ INFO | thermostat-office-internal is safe
 ```text
 iot-camera-defense-sweep/
 ├── main.py            # audit, assess, quarantine logic
-├── requirements.txt   # dependencies
 └── README.md
 ```
 
@@ -138,8 +137,4 @@ iot-camera-defense-sweep/
 
 ## 👤 Author
 
-**Mirza** — [GitHub](https://github.com/<your-username>) • [LinkedIn](https://linkedin.com/in/<your-handle>)
-
-## 📄 License
-
-Released under the [MIT License](LICENSE).
+**Asif Sulaman** — [GitHub](https://github.com/<your-username>) • [LinkedIn](https://linkedin.com/in/<your-handle>)
