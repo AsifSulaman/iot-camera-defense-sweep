@@ -1,13 +1,11 @@
-"""Rogue IoT Camera Defense Sweep: audit -> assess -> quarantine."""
 import logging
 import os
-
 import requests
 
 GET_URL = "https://httpbin.org/get"
 POST_URL = "https://httpbin.org/post"
 AGENT_NAME = "defense-agent-01"
-TOKEN = os.getenv("ADMIN_TOKEN", "demo-admin-token")  # dummy fallback, never commit real secrets
+TOKEN = os.getenv("ADMIN_TOKEN", "demo-admin-token") 
 TIMEOUT = 10
 
 DEVICES = [
